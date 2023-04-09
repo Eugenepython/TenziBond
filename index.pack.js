@@ -488,7 +488,7 @@ function App() {
 
     function generateNewDie() {
         return {
-            value: Math.ceil(Math.random() * 4),
+            value: Math.ceil(Math.random() * 25),
             isHeld: false,
             id: (0, _nanoid.nanoid)(),
             numero: Math.ceil(Math.random() * 9)

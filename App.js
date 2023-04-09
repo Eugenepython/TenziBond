@@ -43,7 +43,7 @@ const bondMovies = [
 
     function generateNewDie() {
         return {
-            value: Math.ceil(Math.random() * 4),
+            value: Math.ceil(Math.random() * 25),
             isHeld: false,
             id: nanoid(),
             numero : Math.ceil(Math.random() * 9),
